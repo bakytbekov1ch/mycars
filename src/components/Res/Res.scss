@@ -1,0 +1,37 @@
+.res {
+  height: 600px;
+  background: white;
+
+  h1 {
+    padding: 20px 0;
+    color: red;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: "Langar";
+    text-align: center;
+  }
+
+  .res__content {
+    position: relative;
+
+    .res__image {
+      width: 700px;
+      position: absolute;
+      right: 0;
+    }
+
+    .res__image2 {
+      width: 700px;
+      position: absolute;
+      top: 8pc;
+      left: 20%;
+      z-index: 99;
+    }
+
+    .res__image3 {
+      width: 600px;
+      position: absolute;
+      left: 0;
+    }
+  }
+}

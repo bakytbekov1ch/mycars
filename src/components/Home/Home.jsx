@@ -5,6 +5,7 @@ import Delivery from "../Delivery/Delivery";
 import Budget from "../Budget/Budget";
 import Main from "../Main/Main";
 import Statis from "../Statis/Statis";
+import Res from "../Res/Res";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Apple />
       <Hero />
       <Delivery />
+      <Res />
       <Budget />
       <Main />
       <Statis />

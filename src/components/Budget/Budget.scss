@@ -1,0 +1,38 @@
+.budget {
+  margin: 50px 0;
+  height: 350px;
+  h1 {
+    height: 80px;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "inter";
+    text-align: center;
+  }
+
+  .budget__content {
+    table {
+      width: 100%;
+      border-collapse: collapse;
+
+      th,
+      td {
+        border: 1px solid white;
+        padding: 10px;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "inter";
+        text-align: start;
+      }
+
+      th {
+        background-color: #333;
+      }
+
+      tr:nth-child(even) {
+        background-color: #444;
+      }
+    }
+  }
+}

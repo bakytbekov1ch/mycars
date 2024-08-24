@@ -1,0 +1,37 @@
+.statis {
+  margin: 30px 0;
+  h1 {
+    height: 80px;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "inter";
+    text-align: center;
+  }
+
+  .statis__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .statis {
+      width: 200px;
+      text-align: center;
+
+      h2 {
+        height: 50px;
+        color: white;
+        font-size: 30px;
+        font-weight: 500;
+        font-family: "inter";
+      }
+
+      h3 {
+        color: rgba(255, 255, 255, 0.71);
+        font-size: 16px;
+        font-weight: 500;
+        font-family: "inter";
+      }
+    }
+  }
+}

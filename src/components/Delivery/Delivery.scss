@@ -1,0 +1,48 @@
+.delivery {
+  margin: 30px 0;
+  height: 300px;
+  h1 {
+    height: 80px;
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    font-weight: "inter";
+    text-align: center;
+  }
+
+  .delivery__content {
+    p {
+      color: white;
+      font-size: 15px;
+      font-weight: 400;
+      font-family: "inter";
+      text-align: center;
+    }
+
+    .delivey__block {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+
+      .mx {
+        width: 300px;
+        height: 60px;
+        border-radius: 5px;
+        border: 1px solid white;
+        background: dodgerblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        cursor: pointer;
+
+        color: white;
+        font-size: 22px;
+        font-weight: 400;
+        font-family: "inter";
+      }
+    }
+  }
+}

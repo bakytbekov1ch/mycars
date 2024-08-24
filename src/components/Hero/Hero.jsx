@@ -1,7 +1,5 @@
 import React from "react";
-
 import { NumberMyA1 } from "../../data/number";
-
 import "./Hero.scss";
 import { Link } from "react-router-dom";
 
@@ -11,8 +9,8 @@ function Hero() {
       <div className="container">
         <div className="hero__content">
           {NumberMyA1.map((item, index) => (
-            <Link to="/product">
-              <div key={index} className="hero__block">
+            <Link key={index} to="/product">
+              <div className="hero__block">
                 <img src={item.image} alt="" />
                 <div className="hero__mx">
                   <h1>{item.name}</h1>
