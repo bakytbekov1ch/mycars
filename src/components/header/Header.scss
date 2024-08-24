@@ -1,0 +1,21 @@
+.header {
+  height: 100px;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+
+  .header__content {
+    h1 {
+      color: red;
+      font-size: 50px;
+      font-weight: 600;
+      font-family: "Langar";
+
+      span {
+        color: white;
+        font-size: 30px;
+        font-weight: 400;
+      }
+    }
+  }
+}

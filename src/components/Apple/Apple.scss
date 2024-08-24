@@ -1,0 +1,56 @@
+.apple {
+  .apple__content {
+    height: 650px;
+    display: flex;
+    align-items: center;
+
+    .apple__text {
+      width: 100%;
+
+      h2 {
+        height: 140px;
+        color: white;
+        font-size: 62px;
+        font-weight: 500;
+        font-family: "inter";
+        letter-spacing: 1px;
+
+        span {
+          color: red;
+          font-weight: 600;
+          font-family: "Langar";
+        }
+      }
+
+      h3 {
+        height: 40px;
+        color: greenyellow;
+        font-size: 20px;
+      }
+
+      h1 {
+        color: white;
+        font-size: 90px;
+        font-family: "inter";
+        font-weight: 500;
+      }
+    }
+
+    .apple__images {
+      width: 100%;
+      position: relative;
+
+      .apple__fon {
+        width: 500px;
+        position: absolute;
+        top: -12pc;
+        right: 0;
+      }
+
+      .apple__car {
+        position: absolute;
+        top: -10pc;
+      }
+    }
+  }
+}
