@@ -21,11 +21,13 @@ function Number() {
             <h3>{item.price} ₽</h3>
             <h3 style={{ color: "red" }}>{item.apple} %</h3>
           </div>
-          <button>
-            <h4>{item.main} ₽</h4>
-            <img src={line} alt="" />
-            <h4>{item.hero} ₽</h4>
-          </button>
+          <Link to="/search">
+            <button>
+              <h4>{item.main} ₽</h4>
+              <img src={line} alt="" />
+              <h4>{item.hero} ₽</h4>
+            </button>
+          </Link>
         </div>
       ))}
     </div>
