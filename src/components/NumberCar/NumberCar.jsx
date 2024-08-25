@@ -8,6 +8,10 @@ import "./NumberCar.scss";
 import { Link } from "react-router-dom";
 
 function NumberCar() {
+  function handleClick() {
+    alert("Скоро работать");
+  }
+
   return (
     <div className="numbercar">
       {NumberCarA1.map((item, index) => (
@@ -21,13 +25,11 @@ function NumberCar() {
             <h3>{item.price} ₽</h3>
             <h3 style={{ color: "red" }}>{item.apple} %</h3>
           </div>
-          <Link to="/search">
-            <button>
-              <h4>{item.main} ₽</h4>
-              <img src={line} alt="" />
-              <h4>{item.hero} ₽</h4>
-            </button>
-          </Link>
+          <button onClick={handleClick}>
+            <h4>{item.main} ₽</h4>
+            <img src={line} alt="" />
+            <h4>{item.hero} ₽</h4>
+          </button>
         </div>
       ))}
     </div>
