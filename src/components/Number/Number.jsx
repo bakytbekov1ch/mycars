@@ -8,6 +8,10 @@ import "./Number.scss";
 import { Link } from "react-router-dom";
 
 function Number() {
+  // function handleSuccsess() {
+  //   alert("Скоро работает");
+  // }
+
   return (
     <div className="number">
       {NumberA1.map((item, index) => (
@@ -22,7 +26,7 @@ function Number() {
             <h3 style={{ color: "red" }}>{item.apple} %</h3>
           </div>
           <Link to="/search">
-            <button>
+            <button /*onClick={handleSuccsess}*/>
               <h4>{item.main} ₽</h4>
               <img src={line} alt="" />
               <h4>{item.hero} ₽</h4>
