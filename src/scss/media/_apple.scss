@@ -1,0 +1,132 @@
+@media (max-width: 1024px) {
+  .apple {
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      width: 100%;
+      .apple__content {
+        height: 500px;
+        .apple__text {
+          h2 {
+            font-size: 45px;
+            span {
+            }
+          }
+
+          h1 {
+            font-size: 60px;
+          }
+        }
+
+        .apple__images {
+          .apple__fon {
+            width: 400px;
+            top: -8pc;
+            left: 40%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .apple {
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      width: 100%;
+      .apple__content {
+        height: 400px;
+        .apple__text {
+          h2 {
+            height: 150px;
+          }
+        }
+
+        .apple__images {
+          .apple__fon {
+            width: 100%;
+            top: -10pc;
+          }
+
+          .apple__car {
+            width: 500px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 426px) {
+  .apple {
+    .container {
+      max-width: 375px;
+      margin: 0 auto;
+      width: 100%;
+      .apple__content {
+        flex-direction: column;
+
+        .apple__text {
+          width: 100%;
+          height: 250px;
+
+          h2 {
+            width: 100%;
+            height: 90px;
+            font-size: 35px;
+            text-align: center;
+          }
+
+          h3 {
+            text-align: center;
+          }
+
+          h1 {
+            text-align: center;
+          }
+        }
+
+        .apple__images {
+          .apple__fon {
+            width: 100%;
+            left: 0;
+            top: -50px;
+          }
+
+          .apple__car {
+            width: 100%;
+            top: 0;
+            left: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  .apple {
+    .container {
+      max-width: 320px;
+      margin: 0 auto;
+      width: 100%;
+      .apple__content {
+        .apple__text {
+          h2 {
+            height: 125px;
+          }
+
+          h3 {
+            height: 25px;
+          }
+
+          h1 {
+            font-size: 37px;
+          }
+        }
+      }
+    }
+  }
+}

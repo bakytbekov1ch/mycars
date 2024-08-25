@@ -11,12 +11,12 @@ function Home() {
   return (
     <div>
       <Apple />
-      <Hero />
-      <Delivery />
-      <Res />
-      <Budget />
-      <Main />
-      <Statis />
+      {/* <Hero /> */}
+      {/* <Delivery /> */}
+      {/* <Res /> */}
+      {/* <Budget /> */}
+      {/* <Main /> */}
+      {/* <Statis /> */}
     </div>
   );
 }
