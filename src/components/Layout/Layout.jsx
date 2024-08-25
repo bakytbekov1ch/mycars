@@ -6,9 +6,9 @@ import Footer from "../footer/Footer";
 function Layout() {
   return (
     <div>
-      {/* <Header /> */}
+      <Header />
       <Outlet />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

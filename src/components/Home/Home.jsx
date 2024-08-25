@@ -15,8 +15,8 @@ function Home() {
       <Delivery />
       <Res />
       <Budget />
-      {/* <Main /> */}
-      {/* <Statis /> */}
+      <Main />
+      <Statis />
     </div>
   );
 }
