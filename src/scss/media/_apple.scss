@@ -9,8 +9,6 @@
         .apple__text {
           h2 {
             font-size: 45px;
-            span {
-            }
           }
 
           h1 {
@@ -37,7 +35,7 @@
       margin: 0 auto;
       width: 100%;
       .apple__content {
-        height: 400px;
+        height: 600px;
         .apple__text {
           h2 {
             height: 150px;
@@ -47,11 +45,14 @@
         .apple__images {
           .apple__fon {
             width: 100%;
-            top: -10pc;
+            top: -12pc;
+            left: 0;
           }
 
           .apple__car {
-            width: 500px;
+            width: 100%;
+            left: 0;
+            top: -7pc;
           }
         }
       }
@@ -66,6 +67,7 @@
       margin: 0 auto;
       width: 100%;
       .apple__content {
+        height: 590px;
         flex-direction: column;
 
         .apple__text {

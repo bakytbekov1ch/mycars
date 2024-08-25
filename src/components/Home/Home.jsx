@@ -10,9 +10,9 @@ import Res from "../Res/Res";
 function Home() {
   return (
     <div>
-      <Apple />
+      {/* <Apple /> */}
       {/* <Hero /> */}
-      {/* <Delivery /> */}
+      <Delivery />
       {/* <Res /> */}
       {/* <Budget /> */}
       {/* <Main /> */}
