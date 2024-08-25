@@ -12,7 +12,7 @@ function Home() {
     <div>
       {/* <Apple /> */}
       {/* <Hero /> */}
-      <Delivery />
+      {/* <Delivery /> */}
       {/* <Res /> */}
       {/* <Budget /> */}
       {/* <Main /> */}
