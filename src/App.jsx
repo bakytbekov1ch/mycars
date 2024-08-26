@@ -14,7 +14,7 @@ function App() {
           <Route index element={<HomePage />} />
           <Route path="/product" element={<ProductPage />} />
           <Route path="/search" element={<Search />} />
-          <Route path="/seccess" element={<Seccsess />} />
+          <Route path="/success" element={<Seccsess />} />
         </Route>
       </Routes>
     </div>

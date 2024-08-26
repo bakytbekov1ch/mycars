@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 function NumberCar() {
   function handleClick() {
-    alert("Скоро работать");
+    alert("Скоро работает");
   }
 
   return (
@@ -26,7 +26,7 @@ function NumberCar() {
             <h3 style={{ color: "red" }}>{item.apple} %</h3>
           </div>
           <button onClick={handleClick}>
-            <h4>{item.main} ₽</h4>
+            <h4>{item.main} ч</h4>
             <img src={line} alt="" />
             <h4>{item.hero} ₽</h4>
           </button>

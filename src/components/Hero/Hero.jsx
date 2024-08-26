@@ -16,7 +16,7 @@ function Hero() {
                   <h1>{item.name}</h1>
                   <h2>{item.price} ₽</h2>
                   <h3>
-                    {item.apple} % / {item.main} ₽
+                    {item.main} ч / {item.apple} %
                   </h3>
                 </div>
               </div>

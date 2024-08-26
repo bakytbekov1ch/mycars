@@ -31,14 +31,16 @@ function Budget() {
                 <th>№</th>
                 <th>Кошелёк</th>
                 <th>Сумма</th>
+                <th>Дата</th>
               </tr>
             </thead>
             <tbody>
-              {value.slice(0, 10).map((item, index) => (
+              {value.slice(0, 5).map((item, index) => (
                 <tr key={index}>
                   <td>{item.id}</td>
                   <td>{item.payeer}</td>
                   <td>{item.price}</td>
+                  <td>{item.date}</td>
                 </tr>
               ))}
             </tbody>

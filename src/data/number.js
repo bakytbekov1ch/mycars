@@ -9,8 +9,8 @@ export const NumberA1 = [
     name: "Шевроле Матиз",
     price: "20",
     apple: "107",
-    main: "20",
-    hero: "49",
+    main: "5",
+    hero: "25",
   },
   {
     id: 2,
@@ -18,8 +18,8 @@ export const NumberA1 = [
     name: "Шевроле Дамас",
     price: "50",
     apple: "115",
-    main: "50",
-    hero: "99",
+    main: "5",
+    hero: "60",
   },
   {
     id: 3,
@@ -27,8 +27,8 @@ export const NumberA1 = [
     name: "Шевроле Спарк",
     price: "100",
     apple: "127",
-    main: "100",
-    hero: "199",
+    main: "5",
+    hero: "127",
   },
 ];
 
@@ -43,8 +43,8 @@ export const NumberCarA1 = [
     name: "Шевроле Нексия",
     price: "200",
     apple: "135",
-    main: "200",
-    hero: "499",
+    main: "16",
+    hero: "270",
   },
   {
     id: 1,
@@ -52,8 +52,8 @@ export const NumberCarA1 = [
     name: "Шевроле Кобальт",
     price: "500",
     apple: "143",
-    main: "500",
-    hero: "789",
+    main: "16",
+    hero: "715",
   },
   {
     id: 1,
@@ -61,8 +61,8 @@ export const NumberCarA1 = [
     name: "Шевроле Жентра",
     price: "790",
     apple: "150",
-    main: "790",
-    hero: "999",
+    main: "16",
+    hero: "1185",
   },
 ];
 
@@ -77,8 +77,8 @@ export const NumberMyA1 = [
     name: "Шевроле ONIX",
     price: "1 000",
     apple: "157",
-    main: "1 000",
-    hero: "2 499",
+    main: "32",
+    hero: "1 570",
   },
   {
     id: 2,
@@ -86,8 +86,8 @@ export const NumberMyA1 = [
     name: "Шевроле Малибу",
     price: "2 500",
     apple: "170",
-    main: "2 500",
-    hero: "4 999",
+    main: "32",
+    hero: "4 250",
   },
   {
     id: 3,
@@ -95,7 +95,7 @@ export const NumberMyA1 = [
     name: "Шевроле Траверс",
     price: "5 000",
     apple: "194",
-    main: "5 000",
-    hero: "9 999",
+    main: "32",
+    hero: "9 700",
   },
 ];

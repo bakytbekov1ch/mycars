@@ -27,7 +27,7 @@ function Number() {
           </div>
           <Link to="/search">
             <button /*onClick={handleSuccsess}*/>
-              <h4>{item.main} ₽</h4>
+              <h4>{item.main} ч</h4>
               <img src={line} alt="" />
               <h4>{item.hero} ₽</h4>
             </button>
