@@ -1,5 +1,4 @@
 .main {
-  height: 700px;
   h1 {
     height: 80px;
     color: white;
@@ -10,11 +9,11 @@
   }
 
   .main__content {
-    img {
+    video {
       width: 100%;
       height: 500px;
-      object-fit: cover;
       border-radius: 20px;
+      border: 1px solid white;
     }
   }
 }

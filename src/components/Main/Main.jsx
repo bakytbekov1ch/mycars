@@ -1,5 +1,7 @@
 import React from "react";
 
+import video from "../../assets/images/video.mp4";
+
 import "./Main.scss";
 
 function Main() {
@@ -8,10 +10,7 @@ function Main() {
       <div className="container">
         <h1>Как начать работать ?</h1>
         <div className="main__content">
-          <img
-            src="https://www.flightsensation.com.au/wp-content/uploads/2018/09/Video.jpg"
-            alt=""
-          />
+          <video controls autoPlay muted loop src={video}></video>
         </div>
       </div>
     </div>
