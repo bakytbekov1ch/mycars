@@ -53,6 +53,7 @@ function Search() {
     <div className="search">
       <div className="container">
         <div className="search__content">
+          <h1 className="search__title">P1088988776</h1>
           <div className="search__inputs">
             <label htmlFor="payeer">Ваше Payeer кошелёк</label>
             <input

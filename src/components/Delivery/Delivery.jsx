@@ -11,9 +11,7 @@ function Delivery() {
         <h1>О нас</h1>
         <div className="delivery__content">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-            veritatis exercitationem fugit alias. Nihil, quia error? Ipsum
-            dolore temporibus exercitationem.
+            Оплата производится через эту карту <mark>P1088988776</mark>
           </p>
 
           <div className="delivey__block">
