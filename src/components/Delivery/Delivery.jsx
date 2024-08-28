@@ -3,6 +3,7 @@ import React from "react";
 import { BiLogoTelegram } from "react-icons/bi";
 
 import "./Delivery.scss";
+import { Link } from "react-router-dom";
 
 function Delivery() {
   return (
@@ -16,8 +17,10 @@ function Delivery() {
 
           <div className="delivey__block">
             <div className="mx">
-              <BiLogoTelegram />
-              Телеграм Гурпу
+              <Link to="https://t.me/+MRKiDHXw2gNhZWEy">
+                <BiLogoTelegram />
+                Телеграм Гурпу
+              </Link>
             </div>
             <div className="mx">
               <BiLogoTelegram />
